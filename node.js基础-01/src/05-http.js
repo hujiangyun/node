@@ -9,7 +9,8 @@ const server = http.createServer((req, res) => {
   // method => 前端请求的方法：get，post
   if (url === '/' && method === 'GET') {
     fs.readFile('./index.html', (err, data) => {
-      if (err) { // 出现错误
+      if (err) {
+        // 出现错误
         res.writeHead(500, { 'Content-Type': 'text/plain;charset=utf-8' })
         res.end('serve 服务器出错了')
       }
@@ -21,7 +22,8 @@ const server = http.createServer((req, res) => {
     // 返回一个json对象
     res.writeHead(200, { 'Content-Type': 'application/json' })
     res.end(JSON.stringify({ name: 'tom', age: 18 }))
-  } else if (method === 'GET' && headers.accept.indexOf('image/*') !== -1) {
+    // headers.accept.indexOf('image/*') !== -1
+  } else if (method === 'GET' && headers.accept.indexOf('image/*')) {
     // 流操作
     fs.createReadStream('.' + url).pipe(res)
   }
