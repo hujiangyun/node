@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <input type="text" v-model="message" />
+      <button @click="send">发送</button>
+      <button @click="empty">清空</button>
+      <div style="margin-top: 20px;">
+        <div v-for="item in list">{{ item }}</div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const host = 'http://localhost:3000'
+    new Vue({
+      el: '#app',
+      data: {
+        message: 'hello vue',
+        list: []
+      },
+      methods: {
+        send: async function() {
+          const res = await axios.post(host + '/send', {
+            message: this.message
+          })
+          this.list = res.data
+        },
+        empty: async function() {
+          const res = await axios.post(host + '/clear')
+          this.list = res.data
+        }
+      },
+      mounted() {
+        // setInterval(async () => {
+        //   const res = await axios.get(host + '/list')
+        //   this.list = res.data
+        // }, 1000)
+      }
+    })
+  </script>
+</html>

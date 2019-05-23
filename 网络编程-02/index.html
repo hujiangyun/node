@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     你好呀
-</body>
-<script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
-<script>
+  </body>
+  <script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
+  <script>
     async function testAxios() {
-        const url = "http://localhost:3000/users"
-        const _url = "http://localhost:3000"
-        const res = await axios.get(url, {
-            headers: {
-                // 跨域时简单请求可以后端加入"Access-Control-Allow-Origin"可以实现
-                //           |
-                // 当前端设置了headers时（复杂请求）无效
-                "X-Token": 'jilei'
-            }
-        })
-        console.log(res.data);
+      axios.defaults.baseURL = 'http://localhost:3000'
+      axios.defaults.withCredentials = true // 前端设置可鉴权（获取cookie）
+      const res = await axios.get('/users', {
+        headers: {
+          // 跨域时简单请求可以后端加入"Access-Control-Allow-Origin"可以实现
+          //           |
+          // 当前端设置了headers时（复杂请求）无效
+          'X-Token': 'jilei'
+        }
+      })
+      console.log(res.data)
     }
-    testAxios()
-</script>
-
+    // testAxios()
+  </script>
 </html>
