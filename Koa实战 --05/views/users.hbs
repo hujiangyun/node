@@ -1,0 +1,19 @@
+{{!-- 插值绑定 --}}
+<h1>{{subTitle}}</h1>
+
+{{!-- html内容 --}}
+<p>{{{htmlStr}}}</p>
+
+{{!-- 条件语句 --}}
+{{#if isShow}}
+<p>{{username}}，欢迎您！</p>
+{{else}}
+<a href="">请登录</a>
+{{/if}}
+
+{{!-- 循环 --}}
+<ul>
+  {{#each users}}
+  <li>{{name}} - {{age}}</li>
+  {{/each}}
+</ul>
