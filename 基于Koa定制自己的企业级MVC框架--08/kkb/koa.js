@@ -12,11 +12,13 @@ class kkb {
   constructor(conf) {
     this.$app = new Koa(conf)
     loadConfig(this)
-    this.$service = initServices() // 必须先执行，不然在routes文件夹里面拿不到$ctrl对象
-    this.$ctrl = initController() // 必须先执行，不然在routes文件夹里面拿不到$ctrl对象
+    this.$service = initServices(this) // 必须先执行，不然在routes文件夹里面拿不到$ctrl对象
+    this.$ctrl = initController(this) // 必须先执行，不然在routes文件夹里面拿不到$ctrl对象
     this.$router = initRouter(this)
     this.$app.use(this.$router.routes())
-    // initSchedule() // 加载定时任务
+
+    // 加载定时任务
+    initSchedule(this)
   }
   start(port) {
     this.$app.listen(port, () => {

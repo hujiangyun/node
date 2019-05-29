@@ -7,11 +7,8 @@
 //   }
 // }
 
-module.exports = app => {
-  // console.log(app)
-  return {
-    // 指向controller层
-    'get /': app.$ctrl.home.index,
-    'get /detail': app.$ctrl.home.detail
-  }
-}
+module.exports = app => ({
+  // 指向controller层
+  'get /': app.$ctrl.home.index,
+  'get /detail': app.$ctrl.home.detail
+})

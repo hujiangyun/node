@@ -25,7 +25,7 @@ function initRouter(app) {
   const router = new Router()
   loader('routes', (filename, routes) => {
     // routes 读取到的文件内容 modul.exports出来的东西
-    // 兼容对象和function（routes文件夹里面的写法 -- 指向了controller，controlloer中导出的是function）
+    // 兼容对象和function（routes文件夹里面的写法 -- 指向了controller(service)，service,controlloer中导出的是function）
     routes = typeof routes === 'function' ? routes(app) : routes
 
     const prefix = filename === 'index' ? '' : `/${filename}`
@@ -34,33 +34,32 @@ function initRouter(app) {
       // console.log('正在映射的地址：', method.toLocaleUpperCase(), prefix, path)
       // 注册路由
       // app.get('/',ctx => {})
-      // 兼容service中的路由方法
-      // router[method](prefix + path, routes[key]) -- 没加service层之前
-      router[method](prefix + path, async ctx => {
-        app.ctx = ctx
-        await routes[key](app)
-      })
+      router[method](prefix + path, routes[key])
+      // router[method](prefix + path, async ctx => {
+      //   app.ctx = ctx
+      //   await routes[key](app)
+      // })
     })
   })
   return router
 }
 
 // 读取controller文件夹里的文件
-function initController() {
+function initController(app) {
   let controllers = {}
   loader('controller', (filename, controller) => {
     // filename文件名，controller文件导出的对象
-    controllers[filename] = controller
+    controllers[filename] = controller(app)
   })
   return controllers
 }
 
 // 读取service文件夹里的文件
-function initServices() {
+function initServices(app) {
   let services = {}
   loader('service', (filename, service) => {
     // filename文件名，service文件导出的对象
-    services[filename] = service
+    services[filename] = service(app)
   })
   return services
 }
@@ -96,8 +95,10 @@ function loadConfig(app) {
 
 // 加载定时任务模块
 const schedule = require('node-schedule')
-function initSchedule() {
-  loader('schedule', (filename, { interval, handler }) => {
+function initSchedule(app) {
+  loader('schedule', (filename, cb) => {
+    // 当定时任务需要调用service层或者controller层的方法时，需要返回一个函数
+    const { interval, handler } = typeof cb === 'function' ? cb(app) : cb
     schedule.scheduleJob(interval, handler)
   })
 }
