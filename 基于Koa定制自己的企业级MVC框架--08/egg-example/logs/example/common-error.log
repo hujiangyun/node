@@ -1,0 +1,799 @@
+2019-05-28 16:33:19,162 ERROR 10784 [-/::1/-/8ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10784
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:33:38,664 ERROR 10796 [-/::1/-/15ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:46)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10796
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:33:39,874 ERROR 10796 [-/::1/-/1ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:46)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10796
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:33:51,885 ERROR 10796 [-/::1/-/0ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:46)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10796
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:34:20,613 ERROR 10806 [-/::1/-/11ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10806
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:34:21,842 ERROR 10830 [-/::1/-/10ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10830
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:35:01,573 ERROR 10881 [-/::1/-/9ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10881
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:35:49,479 ERROR 10881 [-/::1/-/2ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10881
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:35:51,070 ERROR 10881 [-/::1/-/0ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10881
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:35:51,993 ERROR 10881 [-/::1/-/0ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10881
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:35:52,990 ERROR 10881 [-/::1/-/1ms GET /] nodejs.TypeError: Cannot read property 'getAll' of undefined
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+
+pid: 10881
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:46:09,869 ERROR 11171 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'172.18.0.1' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+pid: 11171
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:46:12,634 ERROR 11181 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'172.18.0.1' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+pid: 11181
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:47:48,352 ERROR 11209 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'172.18.0.1' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+pid: 11209
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:49:31,129 ERROR 11253 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'172.18.0.1' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+pid: 11253
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:49:43,264 ERROR 11272 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'172.18.0.1' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+pid: 11272
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:58:08,084 ERROR 11564 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'172.18.0.1' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+pid: 11564
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 16:58:08,088 ERROR 11564 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'172.18.0.1' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+pid: 11564
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:00:44,821 ERROR 11635 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'172.18.0.1' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+pid: 11635
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:00:44,840 ERROR 11635 nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'172.18.0.1' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'172.18.0.1' (using password: NO)"}
+pid: 11635
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:03:42,668 ERROR 11697 nodejs.SequelizeConnectionError: Unknown database 'test'
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeConnectionError"
+parent: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test'"}
+original: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test'"}
+pid: 11697
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:03:42,670 ERROR 11697 nodejs.SequelizeConnectionError: Unknown database 'test'
+    at Promise.tap.then.catch.err (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:133:19)
+From previous event:
+    at ConnectionManager.connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:50)
+    at runCallback (timers.js:810:20)
+    at tryOnImmediate (timers.js:768:5)
+    at processImmediate [as _immediateCallback] (timers.js:745:5)
+From previous event:
+    at ConnectionManager._connect (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:309:8)
+    at ConnectionManager.getConnection (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:631:36)
+From previous event:
+    at Promise.resolve.retry (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:53)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:619:30)
+From previous event:
+    at Sequelize.query (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:576:23)
+    at Sequelize.authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/sequelize/lib/sequelize.js:882:17)
+    at authenticate (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at _combinedTickCallback (internal/process/next_tick.js:132:7)
+    at process._tickCallback (internal/process/next_tick.js:181:9)
+    at Function.Module.runMain (module.js:696:11)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+name: "SequelizeConnectionError"
+parent: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test'"}
+original: {"code":"ER_BAD_DB_ERROR","errno":1049,"sqlState":"42000","sqlMessage":"Unknown database 'test'"}
+pid: 11697
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:21:09,446 ERROR 12020 [-/::1/-/12ms GET /] nodejs.TypeError: User.sycn is not a function
+    at UserService.getAll (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/service/user.js:8:10)
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 12020
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:21:45,015 ERROR 12044 [-/::1/-/13ms GET /] nodejs.TypeError: User.sycn is not a function
+    at UserService.getAll (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/service/user.js:8:10)
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 12044
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:21:45,934 ERROR 12044 [-/::1/-/1ms GET /] nodejs.TypeError: User.sycn is not a function
+    at UserService.getAll (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/service/user.js:8:10)
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 12044
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:21:46,960 ERROR 12044 [-/::1/-/1ms GET /] nodejs.TypeError: User.sycn is not a function
+    at UserService.getAll (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/service/user.js:8:10)
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 12044
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:22:30,528 ERROR 12071 [-/::1/-/8ms GET /] nodejs.TypeError: Cannot read property 'sycn' of undefined
+    at UserService.getAll (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/service/user.js:8:10)
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 12071
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:22:38,264 ERROR 12088 [-/::1/-/15ms GET /] nodejs.TypeError: Cannot read property 'sync' of undefined
+    at UserService.getAll (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/service/user.js:8:16)
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 12088
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:26:23,647 ERROR 12194 [-/::1/-/16ms GET /] nodejs.ReferenceError: User is not defined
+    at UserService.getAll (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/service/user.js:9:5)
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 12194
+hostname: hujiangyundeMacBook-Air.local
+
+2019-05-28 17:29:23,812 ERROR 12322 [-/::1/-/18ms GET /] nodejs.ReferenceError: User is not defined
+    at UserService.getAll (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/service/user.js:8:5)
+    at HomeController.index (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/app/controller/home.js:9:39)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+    at dispatch (/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+
+pid: 12322
+hostname: hujiangyundeMacBook-Air.local
+

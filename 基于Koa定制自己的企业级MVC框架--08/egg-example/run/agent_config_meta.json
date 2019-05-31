@@ -1,0 +1,297 @@
+{
+  "keys": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/config/config.default.js",
+  "middleware": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/config/config.default.js",
+  "sequelize": {
+    "dialect": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/config/config.default.js",
+    "host": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/config/config.default.js",
+    "port": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/config/config.default.js",
+    "username": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/config/config.default.js",
+    "password": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/config/config.default.js",
+    "database": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "private": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "stop": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "dev": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "debug": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "test": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "cov": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "lint": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "ci": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "autod": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "url": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/hjy/Desktop/开课吧/myself/node/code/基于Koa定制自己的企业级MVC框架--08/egg-example/node_modules/egg/config/config.default.js"
+}
