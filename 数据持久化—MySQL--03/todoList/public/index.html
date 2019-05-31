@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>todoList</title>
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/element-ui/2.8.2/index.js"></script>
+    <script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>
+    <link
+      href="https://cdn.bootcss.com/element-ui/2.8.2/theme-chalk/index.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+      }
+      ul,
+      li {
+        list-style: none;
+      }
+      .header-container {
+        display: flex;
+        margin: 50px 0 0;
+        padding: 30px;
+        border: 1px solid #999;
+      }
+      .unline {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <el-row>
+        <el-col :span="12" :offset="6">
+          <div class="header-container">
+            <el-input v-model="text" placeholder="请输入内容"></el-input>
+            <el-button type="primary" @click="addTodo">添加</el-button>
+          </div>
+          <el-table :data="todoList" style="width: 100%">
+            <el-table-column prop="text" label="名称">
+              <template slot-scope="scope">
+                <p :class="{unline: scope.row.complete}">
+                  {{ scope.row.text }}
+                </p>
+              </template>
+            </el-table-column>
+            <el-table-column prop="" label="操作">
+              <template slot-scope="scope">
+                <el-button
+                  size="mini"
+                  type="primary"
+                  @click="updateRow(scope.row)"
+                  >已做</el-button
+                >
+                <el-button
+                  size="mini"
+                  type="danger"
+                  @click="deleteRow(scope.row)"
+                  >删除
+                </el-button>
+              </template>
+            </el-table-column>
+          </el-table>
+          <el-pagination
+            background
+            layout="prev, pager, next"
+            :total="1000"
+          ></el-pagination>
+        </el-col>
+      </el-row>
+    </div>
+    <script>
+      new Vue({
+        el: '#app',
+        data: {
+          text: '',
+          todoList: []
+        },
+        methods: {
+          updateRow: async function(row) {
+            const todos = {
+              ...row,
+              complete: !row.complete
+            }
+            const todo = await axios
+              .put('/api/todos', todos)
+              .then(response => response.data)
+            this.getTodos()
+          },
+          addTodo: async function() {
+            const { text } = this
+            if (!!!text.trim()) return
+            const todos = await axios
+              .post('/api/todos', { text: text.trim(), complete: false })
+              .then(response => response.data)
+            this.getTodos()
+          },
+          deleteRow: async function(row) {
+            const { id } = row
+            const todos = await axios
+              .delete('/api/todos/' + id)
+              .then(response => response.data)
+            this.getTodos()
+          },
+          getTodos: async function() {
+            const todos = await axios
+              .get('/api/todos')
+              .then(response => response.data)
+            this.todoList = todos
+          }
+        },
+        mounted() {
+          this.getTodos()
+        }
+      })
+    </script>
+  </body>
+</html>
