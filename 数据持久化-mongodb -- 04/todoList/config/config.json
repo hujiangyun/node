@@ -1,0 +1,14 @@
+{
+  "development": {
+    "url": "mongodb://localhost:27017",
+    "useNewUrlParser": true
+  },
+  "test": {
+    "url": "mongodb://localhost:27017",
+    "useNewUrlParser": true
+  },
+  "production": {
+    "url": "mongodb://localhost:27017",
+    "useNewUrlParser": true
+  }
+}
